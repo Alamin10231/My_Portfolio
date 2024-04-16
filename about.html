@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Md Alamin - Portfolio</title>
+        <!-- Include Tailwind CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+        <!--animation link-->
+        <link
+    rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+       <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+       <link
+       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+       rel="stylesheet"
+     />
+    </head>
+<body>
+    <header class="bg-white fixed top-0 left-0 w-full z-50 " id="header">
+        <nav class=" container mx-auto relative flex justify-between w-full items-center px-2 h-14" >
+          
+          <div class="alamin text-gray-900 text-sm cursor-pointer ">
+            <h2 class="text-xl md:text-2xl font-semibold ">md Alamin</h2>
+          </div>
+          
+            <div class="list hidden absolute top-0 left-0 w-full py-14 md:py-0 bg-white md:static md:block  md:ml-auto pl-44 md:w-auto  md:text-xl " id="navmenu">
+              <ul class=" flex flex-col md:flex-row gap-4">
+                <li class="text-gray-900 hover:text-gray-700 nav__link hover:underline"><a href="index.html">Portfolio</a></li>
+              <li class="text-gray-900 hover:text-gray-700 nav__link hover:underline"><a href="#Home">Home</a></li>
+              <li class="text-gray-900 hover:text-gray-700 nav__link hover:underline"><a href="about.html">About</a></li>
+              <li class="text-gray-900 hover:text-gray-700 nav__link hover:underline "><a href="contact.html">Contact</a></li>
+            </ul>
+              <div class="closeicon absolute top-2 right-0 pr-4 text-2xl md:hidden cursor-pointer" id="closeicon">
+                <i class="ri-close-line"></i>
+              </div>
+            </div>
+            <div class="md:hidden" id="hamburger">
+              <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+           </div>
+           
+        </nav>
+      </header>
+    <div class="about mt-20 md:mt-32 flex " id="about">
+        <section class="container mx-auto flex flex-col md:flex-row items-center justify-between lg:w-full">
+            <div class="aboutinformation text-white px-8 md:w-1/2">
+                <h1 class="text-xl animate__animated animate__fadeInRight animate__delay-1s">Hello! I'm Alamin</h1>
+                <p class="animate__animated animate__fadeInRight animate__delay-1s">
+                    As a passionate Frontend Web Developer and Graphics Designer, I blend creativity with technical prowess to craft digital experiences that captivate and engage. With a deep understanding of HTML, CSS3, JavaScript, Bootstrap, and Tailwind CSS, I bring designs to life with a keen eye for detail and a commitment to delivering responsive, user-centered solutions.
+    
+                    My journey in the digital world began with a simple fascination for web pages and blossomed into a career where I bridge aesthetics with functionality. Each project is an opportunity to innovate and a new canvas to showcase the power of visual storytelling aligned with cutting-edge technology.
+    
+                    Beyond the code and design tools, I am a lifelong learner and an enthusiast for the latest trends in web technology. Whether it's pushing pixels or writing lines of code, my goal is to create memorable websites that offer seamless user experiences.
+    
+                    Let's collaborate and turn your vision into reality, crafting bespoke digital experiences that drive engagement and success.
+                </p>
+            </div>
+            <div class="image flex md:flex-row justify-center w-full md:w-1/2 lg:w-1/2 mt-10">
+                <img class="w-80 h-80 object-cover mx-auto rounded-full lg:rounded-full md:w-full md:h-96 lg:w-96 lg:h-4/3 animate__animated animate__fadeInRight animate__delay-2s" src="./img/278239308_2127904637361825_4808764178762907535_n.jpg" alt="">
+            </div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
